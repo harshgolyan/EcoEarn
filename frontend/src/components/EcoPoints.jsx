@@ -14,7 +14,7 @@ export default function EcoPoints() {
 
       {/* Right side: Write-up */}
       <div className="w-full md:w-1/2 md:pl-8">
-        <h2 className="text-3xl font-bold text-green-600">Eco-Points</h2>
+        <h2 className="text-3xl font-bold text-green-900 uppercase">Eco-Points</h2>
         <p className="mt-4 text-gray-700">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis nemo debitis laborum deserunt sint expedita aperiam, sit et corporis tenetur quaerat qui in consequuntur id voluptates, nisi quia quo.
         </p>

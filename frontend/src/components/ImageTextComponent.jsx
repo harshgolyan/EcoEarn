@@ -14,7 +14,7 @@ export default function ImageTextComponent() {
 
       {/* Right side: Write-up */}
       <div className="w-full md:w-1/2 md:pl-8">
-        <h2 className="text-3xl font-bold text-green-600">Eco-Friendly Products</h2>
+        <h2 className="text-3xl font-bold text-green-900 uppercase">Eco-Friendly Products</h2>
         <p className="mt-4 text-gray-700">
           We create products that are not only sustainable but also stylish and functional. Our eco-friendly bags are designed to help reduce plastic waste and promote a greener, cleaner planet. Join us in making a positive impact with every purchase.
         </p>

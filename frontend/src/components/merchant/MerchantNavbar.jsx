@@ -8,6 +8,11 @@ export default function MerchantNavbar() {
     setIsOpen(!isOpen);
   };
 
+  const logoutHandler = () => {
+    localStorage.clear();
+    window.location.href = "/";
+  }
+
   return (
     <nav className="bg-green-600 text-white p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -71,6 +76,7 @@ export default function MerchantNavbar() {
         <a
           href="#"
           className="block py-2 px-4 rounded hover:bg-green-700 md:ml-4"
+          onClick={logoutHandler}
         >
           Log Out
         </a>

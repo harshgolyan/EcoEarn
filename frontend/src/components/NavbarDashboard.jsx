@@ -8,7 +8,7 @@ export default function NavbarDashboard() {
 
   const handleLogout = () => {
     localStorage.clear();
-    window.location.href = "/login";
+    window.location.href = "/";
   };
   const navigate = useNavigate();  // Initialize navigate function
 
